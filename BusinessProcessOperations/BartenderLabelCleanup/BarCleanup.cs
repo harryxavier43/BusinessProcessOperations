@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,9 @@ namespace WindowsFormsApp1.BartenderLabelCleanup
         public BarCleanup()
         {
             InitializeComponent();
+
+           var blc =  new BartenderDAL();
+           MessageBox.Show(blc.Test().ToString());
         }
     }
 }
