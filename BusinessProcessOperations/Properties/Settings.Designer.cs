@@ -22,5 +22,16 @@ namespace SmartOps.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=VAGRANT-WIN10\\SQLEXPRESS;Initial Catalog=AdventureWorks2022;Integrate" +
+            "d Security=True;TrustServerCertificate=True")]
+        public string AdventureWorks2022ConnectionString {
+            get {
+                return ((string)(this["AdventureWorks2022ConnectionString"]));
+            }
+        }
     }
 }

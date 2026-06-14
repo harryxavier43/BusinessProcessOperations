@@ -1,4 +1,16 @@
 <Solution>
-  <Project Path="BusinessProcessOperations/SmartOps.csproj" Id="21ae5bdf-a7df-4b37-912a-5ac7ac3819ea" />
-  <Project Path="DAL/DAL.csproj" Id="95569c20-d708-4d98-8695-a5f8d4f52db5" />
+  <Configurations>
+    <BuildType Name="Debug" />
+    <BuildType Name="Debug64" />
+    <BuildType Name="Release" />
+    <BuildType Name="Release64" />
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="BusinessProcessOperations/SmartOps.csproj" Id="21ae5bdf-a7df-4b37-912a-5ac7ac3819ea">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="DAL/DAL.csproj" Id="95569c20-d708-4d98-8695-a5f8d4f52db5">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
 </Solution>

@@ -1,0 +1,3 @@
+﻿namespace SmartOps.Reports.WastageReports
+{
+}
